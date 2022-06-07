@@ -1,13 +1,12 @@
 #include <stdio.h>
-
 /**
- * print_alphabet - Prints the alphabet in lowercase.
+ * main - Prints alphabet in lowercase
  *
  * Return: Always 0 (Success)
  */
-void lowercaseAlphabets()
-{
-   for (int c = 97; c <= 122; ++c)
+int main() {
+    char c;
+    for (c = 'a'; c <= 'z'; ++c)
         printf("%c ", c);
-    printf("\n");
+    return 0;
 }
