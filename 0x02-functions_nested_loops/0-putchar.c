@@ -1,20 +1,20 @@
-#include <stdio.h> 
-
+#include <stdio.h>
 /**
- * main - Prints _putchar as a message.
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int count, sz;
+	char puts[7] = "putchar";
+	int i;
+	int v = '_';
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	putchar(v);
+	for (i = 0; i < 7; i++)
 	{
-		_putchar(str[count]);
+		putchar(puts[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
