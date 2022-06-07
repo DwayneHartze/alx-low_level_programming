@@ -1,12 +1,14 @@
 #include <stdio.h>
-/**
- * main - Prints alphabet in lowercase
- *
- * Return: Always 0 (Success)
- */
-int main() {
-    char c;
-    for (c = 'a'; c <= 'z'; ++c)
-        printf("%c ", c);
+
+int main()
+{
+    char ch;
+
+    printf("Alphabets from a - z are: \n");
+    for(ch='a'; ch<='z'; ch++)
+    {
+        printf("%c\n", ch);
+    }
+
     return 0;
 }
