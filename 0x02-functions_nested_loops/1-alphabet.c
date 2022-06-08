@@ -1,14 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
-int main()
+/**
+ * print_alphabet - print alphabet
+ *
+ * Return: void
+ */
+
+void print_alphabet(void)
 {
-    char ch;
+	char letter = 'a';
 
-    printf("Alphabets from a - z are: \n");
-    for(ch='a'; ch<='z'; ch++)
-    {
-        printf("%c\n", ch);
-    }
-
-    return 0;
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+	_putchar('\n');
 }
