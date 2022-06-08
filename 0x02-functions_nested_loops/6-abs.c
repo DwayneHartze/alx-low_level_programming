@@ -2,7 +2,7 @@
 
 /**
  *_abs - Check main
- *@r: An integre input
+ *@r: An integer input
  *
  *Description: This function returns absolute value of a number
  *
