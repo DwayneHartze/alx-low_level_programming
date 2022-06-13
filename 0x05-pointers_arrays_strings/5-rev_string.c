@@ -4,7 +4,7 @@
  * rev_string - a function that reverse a string
  * followed by a new line.
  * @s: an input string
- * Return: Nothing
+ * Return: Nil
  */
 void rev_string(char *s)
 {
