@@ -2,8 +2,8 @@
 
 /**
 * _strcat - concatenates two strings
-* @dest: (destination) string to be appended to
-* @src: (source) string whose contents to append to src
+* @dest: string to be appended to
+* @src: string whose contents to append to src
 *
 * Definition:
 * This function appends the src string to the dest string,
