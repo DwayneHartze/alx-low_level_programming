@@ -1,12 +1,21 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/*
+ * File: lists.h
+ *
+ * Desc: Header file containing prototypes and definitions for all functions
+ *       and types written in the 0x12-more_singly_linked_lists directory.
+ */
+
 #include <stdlib.h>
 
-/*
+/**
  * struct listint_s - singly linked list
  * @n: integer
  * @next: points to the next node
+ *
+ * Desc: singly linked list node structure
  */
 typedef struct listint_s
 {
@@ -27,4 +36,4 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 
 
-#endif
+#endif /* LISTS_H */
